@@ -1,4 +1,4 @@
-//require('./src/weather-bot');
+require('./src/weather-bot');
 var express = require('express');
 var path = require('path');
 var nunjucks = require('nunjucks');
