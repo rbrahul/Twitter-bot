@@ -6,16 +6,23 @@ A Twitter bot which waits for #hashTag and sends weather update of city via twee
 ### Step 1:
 User tweets to get weather update using hashTag **#DhakaWeather**  such as:
 
-img1
+![Seeking Weather Update of Dhaka](https://raw.githubusercontent.com/rbrahul/Twitter-weather-update-bot/master/public/images/Seeking-weather-update.png "Seeking Weather Update of Dhaka")
 
 
 ### Step 2:
 The twiter weather BOT always filters hashTag **#DhakaWeather**. And when ueser tweets this hastag ths BOT automatically responds him back with Weather information. For Example:
 
+![Twitter Weather BOT responded back with information to the user](https://raw.githubusercontent.com/rbrahul/Twitter-weather-update-bot/master/public/images/twitter-bot-respone.png "Twitter Weather BOT responded back with information to the user")
+
 #Tweets Monitoring
 You can see all the tweets and response to tweets with their details in Tweets Monitoring panel. (Page Refreshing needed, Ajax not Implemented)
 
-Image 3
+
+![Twitter Weather BOT keeps trak of all the tweets to monitor](https://raw.githubusercontent.com/rbrahul/Twitter-weather-update-bot/master/public/images/screenshot-of-posts.png "Twitter Weather BOT keeps trak of all the tweets to monitor")
+
+#### Detail view of tweets 
+
+![Tweet details view to get more information](https://raw.githubusercontent.com/rbrahul/Twitter-weather-update-bot/master/public/images/post-details.png "weet details view to get more information")
 
 #Installation
 
@@ -56,6 +63,7 @@ module.exports.APILocationInfo = {
     cityNamye: 'Dhaka' // This City Name will be used when response back to the tweets. You may change it
 };
 ```
+
 ###Final Stage:
 I think you have successfully configured these information. If everything goes well run following line in your Terminal or Command Line Tools from project directory:
 
