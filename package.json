@@ -1,0 +1,26 @@
+{
+  "name": "twitter-weather-update-bot",
+  "version": "1.0.0",
+  "description": "This app watches the special hashtag for weather information and sends back the update information",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "twitter-bot",
+    "weather-bot",
+    "weather-update-bot"
+  ],
+  "author": "rbrahul <rahulbaruri1@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.14.1",
+    "mysql": "^2.13.0",
+    "node-fetch": "^1.6.3",
+    "nunjucks": "^3.0.0",
+    "request": "^2.79.0",
+    "twitter": "^1.7.0"
+  }
+}

@@ -1,0 +1,20 @@
+.row{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.content-area {
+    margin-top:70px;
+}
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body{
+    overflow-x:hidden;
+}
+#example_filter {
+    float:right;
+}
