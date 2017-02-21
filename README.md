@@ -62,13 +62,13 @@ I think you have successfully configured these information. If everything goes w
 ```sh
 $ npm start
 ```
-Then Go to http://localhost:3000 and visit. At first you get a blank table. But when someone tweets using your hash tag the system will response him back and save to your database.
+Then Go to [http://localhost:3000](http://localhost:3000) and visit. At first you will get a blank table. But when someone tweets using your hash tag the system will response him back and save to your database.
 You have refresh you page to see tweets.
 
-###Note
+#Note
 Twitter Application has some strict rules. As a result your app may be down for a short period while developing if you restart your server freequently or Execute your twitter connection related codes.
 If you found any error related to status then read the twitter API Error and Response Status code page. 
 https://dev.twitter.com/overview/api/response-codes
 
-*** Developed with ♥ using Nodejs,Express,Mysql,Jquery,Nunjuck***
+**Developed with ♥ using Nodejs,Express, MySQL, Jquery, Nunjuck**
 
