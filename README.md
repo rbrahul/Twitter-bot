@@ -34,11 +34,11 @@ Go to https://apps.twitter.com/ and create a new Application. Then you will get 
 Go to http://openweathermap.org/appid. If you don't have account yet you need to sign up to get free API Key. Their's APIs are really awesome. Don't hasitate.
 
 ### Create MySQL Database:
-Create a mysql database named as **twitter_bot**. or anything else. Thene import the database schema from **database.sql** file from your project root directory.
+Create a mysql database named as **twitter_bot**. or anything else. Then import the database schema from **database.sql** file from your project root directory.
 
 ####Change Configuration:
 After completing above steps please change the configuration file with your own App specific Information
-In src\utils\config.js :
+In **src\utils\config.js**:
 
 ```js
 module.exports.tweeterConfig = {
@@ -70,13 +70,13 @@ I think you have successfully configured these information. If everything goes w
 ```sh
 $ npm start
 ```
-Then Go to [http://localhost:3000](http://localhost:3000) and visit. At first you will get a blank table. But when someone tweets using your hash tag the system will response him back and save to your database.
-You have refresh you page to see tweets.
+Then go to [http://localhost:3000](http://localhost:3000) and visit. At first you will get a blank table. But when someone tweets using your **#hashTag** the system will response him back and save to your database.
+You have to refresh your page to see the lates tweets.
 
 #Note
-Twitter Application has some strict rules. As a result your app may be down for a short period while developing if you restart your server freequently or Execute your twitter connection related codes.
-If you found any error related to status then read the twitter API Error and Response Status code page. 
-https://dev.twitter.com/overview/api/response-codes
+Twitter application has some strict rules. As a result your app may be down for a short period while developing if you restart your server freequently or execute your twitter connection related codes.
+If you find any error related to status then read the twitter [API Error and Response Status](https://dev.twitter.com/overview/api/response-codes) document. 
+
 
 **Developed with ♥ using Nodejs,Express, MySQL, Jquery, Nunjuck**
 
