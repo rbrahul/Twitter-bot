@@ -12,15 +12,13 @@
     "weather-bot",
     "weather-update-bot"
   ],
-  "author": "rbrahul <rahulbaruri1@gmail.com>",
+  "author": "Rahul Baruri <rahulbaruri1@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "ejs": "^2.5.6",
     "express": "^4.14.1",
     "mysql": "^2.13.0",
     "node-fetch": "^1.6.3",
     "nunjucks": "^3.0.0",
-    "request": "^2.79.0",
     "twitter": "^1.7.0"
   }
 }
